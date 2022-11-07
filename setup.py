@@ -2,6 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='awslambdabootstrap',
+    description='A library simplifying the boiler plate for python aws lambda functions',
+    long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
     version="0.0.5",
     license='GPLv3+',
     author="James Davies",
